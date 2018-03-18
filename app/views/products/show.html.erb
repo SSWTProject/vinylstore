@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @product.artist %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @product.title %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @product.genre %>
+</p>
+
+<p>
+  <strong>Release date:</strong>
+  <%= @product.release_date %>
+</p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @product.label %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Tracklist:</strong>
+  <%= @product.tracklist %>
+</p>
+
+<p>
+  <strong>Album:</strong>
+  <%= @product.album %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @product.image_url %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
